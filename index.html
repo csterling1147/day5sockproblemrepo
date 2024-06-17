@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+  
+<body>
+  <h1> Sock Problem </h1>
+   <h2>Problem</h2>
+
+  <p>
+       Link to <a href="https://www.hackerrank.com/challenges/maximum-draws/problem">problem on HackerRank.</a>
+  </p>
+
+  <p>
+        There are n colors of socks in a sock drawer. You want to find a pair of
+    socks that are the same color. How many socks must you take out to be sure
+    of having a pair of the same color?
+  </p>
+ <h2> Solution:</h2> 
+  <p>I discovered that you  simply needed to pull out one more sock than the number of matching pairs that you owned in the drawer.
+    
+  </p>
+
+  <p><strong>Result:</strong> best case you get two pairs right of the bat. but if not then the maximum amount of pulls it would take would be one more than the amount of matching pairs you owned</p>
+
+  <h2>Picture Diagram</h2>
+
+  <div class="diagram-container">
+    <img width="70%" alt="diagram of sock problem"
+src="https://replit.com/@lanesterling581/day5sockproblemrepo#canva.png">
+  </div>
+
+  <h2>Psuedocode</h2>
+  <p>function howmanytopullout(n)
+  return n + 1;
+
+  n+1
+  </p>
+  
+
+  <pre>
+    Let n be how many sock colors  owned
+    Result: Best case scenario is you pull two matching pair with your first two pulls. Worst case is you have to pull one more than the number of matching pairs you own.
+  </pre>
+  <h2>Discussion</h2>
+  <table style="border: solid">
+    <tr>
+      <th style="border-bottom:solid">Sock Colors</th>
+      <th style="border-bottom: solid">
+         Max number of socks you need to take out </th>
+      </tr>
+
+      <tr>
+         <td>n</td>
+        <td>n+1</td>
+        </tr>
+
+      <tr>
+         <td>1</td>
+        <td>
+
+        </td>
+        </tr>
+
+      <tr>
+         <td>2</td>
+        <td>
+          ?
+        </td>
+      </tr>
+
+    <tr>
+      <td>3</td>
+      <td>
+        ?
+      </td>
+    </tr>
+
+    <tr>
+      <td>4</td>
+      <td>
+        ?
+      </td>
+    </tr>
+
+    <tr>
+      <td>5</td>
+      <td>
+        ?
+      </td>
+    </tr>
+
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
